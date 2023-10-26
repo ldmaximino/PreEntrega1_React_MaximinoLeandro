@@ -1,10 +1,9 @@
 import '../App.css';
 
-export const ItemListContainter = () => {
+export const ItemListContainter = ({greeting}) => {
   return (
     <section className="itemList-section">
-      <h1>Nuestra lista de productos</h1>
-      <h2>Los Esperamos!</h2>
+      <h1>{greeting}</h1>
     </section>
   )
 }
